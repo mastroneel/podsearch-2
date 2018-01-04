@@ -1,0 +1,47 @@
+@import 'variables';
+
+.how-does-it-work {
+  padding: 40px 0 60px 0;
+  text-align: center;
+  h2 {
+    color: $blue;
+    font-size: 46px;
+  }
+  .underline {
+    height: 0;
+    width: 300px;
+    display: block;
+    margin: 0 auto;
+    border: 4px solid $yellow;
+  }
+  .number {
+    height: 60px;
+    width: 60px;
+    background-color: $yellow;
+    border: 1px solid $yellow;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    margin-top: 40px;
+    font-size: 36px;
+  }
+  p {
+    font-style: italic;
+    color: $blue;
+    font-size: 25px;
+    margin-top: 10px;
+  }
+}
+
+// Media queries
+@media (min-width: 1800px) and (min-height: 1100px) {
+  .how-does-it-work {
+    h2 {
+      font-size: 60px;
+    }
+    p {
+      font-size: 36px;
+    }
+  }
+}

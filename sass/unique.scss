@@ -1,0 +1,118 @@
+@import 'variables';
+
+.unique {
+  background-color: $blue;
+  padding: 40px 0 0 0;
+  min-height: 560px;
+  h1, p, button {
+    color: $white;
+    transition: 0.2s;
+    margin-top: 20px;
+  }
+  h2 {
+    color: $yellow;
+  }
+  button:visited {
+    color: $white
+  }
+  button:hover {
+    color: $yellow;
+    transition: 0.2s;
+  }
+  h1 {
+    font-size: 46px;
+  }
+  p {
+    font-size: 25px;
+  }
+  .see-more-text {
+    font-style: italic;
+  }
+  h2 {
+    font-size: 36px;
+  }
+  button {
+    font-family: 'roboto', serif;
+    text-decoration: underline;
+    font-size: 36px;
+    background: none;
+    border: none;
+    &:focus {
+      outline: none;
+    }
+  }
+  // see more container and button styles
+  .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    transition: all 0.5s;}
+    .post {
+      margin-bottom: 10px;
+      transition: all 0.5s;
+    }
+    .less {
+      height: 70px; width: 100%;
+      overflow: hidden;
+    }
+    .more {
+      height: 200px;
+      width: 100%;
+      overflow: auto;
+    }
+}
+
+// Media queries
+@media (max-width: 820px) {
+  .unique {
+    min-height: 640px;
+    h1 {
+      font-size: 36px
+    }
+    p {
+      font-size: 25px;
+    }
+    h2, button {
+      font-size: 30px;
+    }
+    .more {
+      height: 290px;
+    }
+  }
+}
+
+@media (max-width: 550px) {
+  .unique {
+    min-height: 470px;
+    h1 {
+      font-size: 26px
+    }
+    p {
+      font-size: 15px;
+    }
+    h2, button {
+      font-size: 20px;
+    }
+    .more {
+      height: 150px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .unique {
+    min-height: 500px;
+    .more {
+      height: 200px;
+    }
+  }
+}
+
+@media (max-width: 400px) {
+  .unique {
+    min-height: 580px;
+    .more {
+      height: 250px;
+    }
+  }
+}

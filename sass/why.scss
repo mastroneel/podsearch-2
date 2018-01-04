@@ -1,0 +1,101 @@
+@import 'variables';
+
+.why {
+  padding: 40px 0 60px 0;
+  h1, p {
+    color: $blue;
+  }
+  h1 {
+    margin-top: 40px;
+  }
+  p {
+    font-size: 20px;
+    width: 325px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  .underline {
+    height: 0;
+    width: 80px;
+    border-bottom: 4px solid $yellow;
+    display: block;
+    margin: 0 auto;
+  }
+  .see-more-text {
+    width: auto;
+    font-style: italic;
+  }
+  .more-button, .less-button {
+    font-family: 'roboto', serif;
+    color: $yellow;
+    text-decoration: underline;
+    transition: 0.2s;
+    background: none;
+    border: none;
+    font-size: 36px;
+    margin-top: 40px;
+    &:hover {
+      color: $blue;
+      transition: 0.2s;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  // see more container and button styles
+  .container {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    transition: all 0.5s;
+  }
+    .post {
+      margin-bottom: 10px;
+      transition: all 0.5s;
+    }
+    .less {
+      height: 110px; width: 100%;
+      overflow: hidden;
+    }
+    .more {
+      height: 190px;
+      width: 100%;
+      overflow: auto;
+    }
+    .button {
+      display: block;
+      margin: 0 auto;
+      width: 280px;
+      margin-top: 30px;
+    }
+}
+
+
+// Media queries
+@media (max-width: 950px) {
+  .why {
+    .more {
+      height: 210px;
+    }
+  }
+}
+
+@media (max-width: 540px) {
+  .why {
+    .more {
+      height: 260px;
+    }
+  }
+}
+
+@media (max-width: 390px) {
+  .why {
+    h1 {
+      font-size: 25px;
+    }
+    p {
+      width: 300px;
+    }
+  }
+}

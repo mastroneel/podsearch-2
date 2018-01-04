@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/app.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Podsearch</title>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon"/>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous">
+    </script>
+  </head>
+  <body>
+
+    <!-- hero -->
+    <div class="hero">
+      <div class="row img-row">
+        <div class="col-xs-12">
+          <img src="img/logo.png">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-6">
+          <h1>
+            MILLIONS OF PEOPLE
+            ARE WAITING TO DISCOVER
+            YOUR PODCAST
+          </h1>
+          <a class="button" href="#">JOIN PODSEARCH</a>
+        </div>
+      </div>
+    </div>
+    <!-- end hero -->
+
+    <!-- how does it work -->
+    <div class="how-does-it-work">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2>How does it work?</h2>
+          <div class="underline"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="number">1</h2>
+          <p>Join PodSearch</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="number">2</h2>
+          <p>Complete your podcast profile</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="number">3</h2>
+          <p>Get discovered by new listeners and advertisers</p>
+        </div>
+      </div>
+    </div>
+    <!-- end how does it work -->
+
+    <!-- we're unique -->
+    <div class="unique">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>We’re unique. Here’s why.</h1>
+          <p>
+            We attract “new-to-podcast” listeners...
+          </p>
+          <br>
+          <p>
+            Those millions of people
+            who are interested in podcasts but don’t know where to start.
+          </p>
+          <h2>
+            That’s where we step in.
+          </h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">Learn More</button>
+              <button class="less-button">See Less</button>
+              <p class="see-more-text">
+                Monthly, there are over 29 million internet searches for podcasts.
+                Through our effective paid marketing efforts,
+                we bring that audience straight to podcasts listed on PodSearch.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end we're unique -->
+
+    <!-- why section -->
+    <div class="why">
+      <div class="row">
+        <div class="col-xs-12 col-md-4">
+          <h1>
+            Small fee.
+            No contract.
+          </h1>
+          <div class="underline"></div>
+          <p>
+            Nominal fee of $9.99 per month
+            per podcast. No contract
+            or long-term commitment.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <h1>
+            Why a
+            monthly fee.
+          </h1>
+          <div class="underline"></div>
+          <p>
+            Your fees work for you.
+            We aggregate podcaster
+            listing fees to execute successful
+            marketing campaigns.
+          </p>
+        </div>
+        <div class="col-xs-12 col-md-4">
+          <h1>
+            Powerful
+            marketing.
+          </h1>
+          <div class="underline"></div>
+          <p>
+           PodSearch runs successful
+           SEM and paid social media
+           marketing campaigns
+           to benefit podcasters.
+           Marketing campaigns
+           that capture both general
+           and specific search terms.
+           Plus, everything in between.
+          </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <div class="container">
+            <div class="post less">
+              <button class="more-button">Learn More</button>
+              <button class="less-button">See Less</button>
+              <p class="see-more-text">
+                This type of wide-scale paid marketing is
+                virtually impossible for an individual podcaster.
+                <br>
+                So, let us do it for you.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <a class="button" href="#">JOIN PODSEARCH</a>
+        </div>
+      </div>
+    </div>
+    <!-- end why section -->
+
+    <!-- script for learn more/see less button -->
+    <script>
+      //hide "see less" button
+      $(".less-button").hide();
+      //capture click on more button
+      //add class to enlarge div
+      $(".more-button").click(function(){
+      $(this).parent().addClass("more");
+      //hide "see more" button
+      $(this).hide();
+      //show "see less" button
+      $(this).siblings(".less-button").show();
+      });
+      //capture click on less button
+      //remove class to shrink div
+      $(".less-button").click(function(){
+      $(this).parent().removeClass("more");
+      //hide "see less" button again
+      $(this).hide();
+      //show "see more" button... again
+      $(this).siblings(".more-button").show();
+      });
+    </script>
+    <!-- end script for learn more/see less button -->
+
+
+
+  </body>
+</html>
