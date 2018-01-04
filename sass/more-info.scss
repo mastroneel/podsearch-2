@@ -1,1 +1,129 @@
 @import 'variables';
+
+.more-info-desktop, .more-info-mobile {
+  .col-xs-12, .col-sm-6 {
+    min-height: 450px;
+    padding-top: 90px;
+  }
+  .image-1 {
+    background-image: url('../img/placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .image-2 {
+    background-image: url('../img/placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .image-3 {
+    background-image: url('../img/placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .image-4 {
+    background-image: url('../img/placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  h1, p {
+    color: $blue;
+  }
+  p, .see-more-text {
+    font-size: 20px;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+  }
+  .see-more-text {
+    font-style: italic;
+  }
+  // see more container and button styles
+  .more-button, .less-button {
+    font-family: 'roboto', serif;
+    color: $yellow;
+    text-decoration: underline;
+    transition: 0.2s;
+    background: none;
+    border: none;
+    font-size: 28px;
+    margin-top: 0px;
+    &:hover {
+      color: $blue;
+      transition: 0.2s;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+  .container {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    transition: all 0.5s;
+  }
+    .post {
+      margin-bottom: 10px;
+      transition: all 0.5s;
+    }
+    .less {
+      height: 40px; width: 100%;
+      overflow: hidden;
+    }
+    .more {
+      height: 200px;
+      width: 100%;
+      overflow: auto;
+    }
+}
+
+// Media queries
+@media (min-width: 2400px) and (min-height: 1300px){
+  .more-info-desktop {
+    .col-sm-6 {
+      min-height: 650px;
+    }
+    h1 {
+      font-size: 46px;
+    }
+    p, .see-more-text {
+      font-size: 30px;
+      width: 60%;
+    }
+  }
+}
+
+@media (max-width: 1065px) {
+  .more-info-desktop, .more-info-mobile {
+    h1 {
+      font-size: 25px;
+    }
+    p, .see-more-text {
+      font-size: 18px;
+      width: 90%;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .more-info-mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .more-info-desktop {
+    display: none;
+  }
+}
+
+@media (max-width: 400px) {
+  .more-info-desktop, .more-info-mobile {
+    h1 {
+      font-size: 22px;
+    }
+    p, .see-more-text {
+      font-size: 16px;
+      width: 95%;
+    }
+  }
+}
