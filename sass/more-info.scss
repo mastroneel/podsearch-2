@@ -5,6 +5,10 @@
     min-height: 450px;
     padding-top: 90px;
   }
+  .button-container {
+    min-height: 0;
+    margin-top: -20px;
+  }
   .image-1 {
     background-image: url('../img/placeholder.jpg');
     background-position: center;
@@ -21,6 +25,11 @@
     background-size: cover;
   }
   .image-4 {
+    background-image: url('../img/placeholder.jpg');
+    background-position: center;
+    background-size: cover;
+  }
+  .image-5 {
     background-image: url('../img/placeholder.jpg');
     background-position: center;
     background-size: cover;

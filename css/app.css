@@ -8190,12 +8190,17 @@ p {
       width: 120px;
       margin-top: 10px; }
   .hero h1 {
-    font-size: 50px;
-    margin-top: 30%;
+    font-size: 35px;
+    margin-top: 20%;
     text-align: center;
     color: #fff;
     text-transform: uppercase;
-    padding-bottom: 40px; }
+    padding-bottom: 40px;
+    letter-spacing: 1px; }
+    .hero h1 span {
+      font-family: 'ptserif', serif;
+      font-size: 11px;
+      display: block; }
 
 @media (min-width: 1800px) and (min-height: 1100px) {
   .hero h1 {
@@ -8335,7 +8340,7 @@ p {
     margin-top: 40px; }
   .why p {
     font-size: 20px;
-    width: 300px;
+    width: 500px;
     display: block;
     margin: 0 auto;
     margin-top: 20px; }
@@ -8358,7 +8363,7 @@ p {
     background: none;
     border: none;
     font-size: 28px;
-    margin-top: 0px; }
+    margin-top: 15px; }
     .why .more-button:hover, .why .less-button:hover {
       color: #222e50;
       transition: 0.2s; }
@@ -8373,16 +8378,16 @@ p {
     margin-bottom: 10px;
     transition: all 0.5s; }
   .why .less {
-    height: 40px;
+    height: 55px;
     width: 100%;
     overflow: hidden; }
   .why .more {
-    height: 200px;
+    height: 215px;
     width: 100%;
     overflow: auto; }
   .why .button {
     display: block;
-    margin: 150px auto 0 auto;
+    margin: 40px auto 0 auto;
     width: 280px; }
 
 @media (min-width: 993px) {
@@ -8397,6 +8402,8 @@ p {
   .why .more {
     height: 210px; } }
 @media (max-width: 540px) {
+  .why p {
+    width: 290px; }
   .why .more {
     height: 260px; } }
 @media (max-width: 390px) {
@@ -8407,6 +8414,9 @@ p {
 .more-info-desktop .col-xs-12, .more-info-desktop .col-sm-6, .more-info-mobile .col-xs-12, .more-info-mobile .col-sm-6 {
   min-height: 450px;
   padding-top: 90px; }
+.more-info-desktop .button-container, .more-info-mobile .button-container {
+  min-height: 0;
+  margin-top: -20px; }
 .more-info-desktop .image-1, .more-info-mobile .image-1 {
   background-image: url("../img/placeholder.jpg");
   background-position: center;
@@ -8420,6 +8430,10 @@ p {
   background-position: center;
   background-size: cover; }
 .more-info-desktop .image-4, .more-info-mobile .image-4 {
+  background-image: url("../img/placeholder.jpg");
+  background-position: center;
+  background-size: cover; }
+.more-info-desktop .image-5, .more-info-mobile .image-5 {
   background-image: url("../img/placeholder.jpg");
   background-position: center;
   background-size: cover; }
@@ -8489,35 +8503,16 @@ p {
   .more-info-desktop p, .more-info-desktop .see-more-text, .more-info-mobile p, .more-info-mobile .see-more-text {
     font-size: 16px;
     width: 95%; } }
-.get-sponsored {
-  padding: 40px 0 90px 0;
-  background-color: #222e50; }
-  .get-sponsored h1, .get-sponsored p {
-    color: #fff; }
-  .get-sponsored p {
-    font-size: 20px;
-    width: 700px;
-    display: block;
-    margin: 40px auto; }
-  .get-sponsored h2 {
-    margin-top: 40px;
-    color: #ffd249; }
-  .get-sponsored .button:hover {
-    background-color: #fff; }
-
-@media (max-width: 750px) {
-  .get-sponsored p {
-    width: auto; } }
-@media (max-width: 400px) {
-  .get-sponsored p {
-    font-size: 18px; } }
 .experts {
-  padding: 40px 0 60px 0; }
+  padding: 40px 0 60px 0;
+  margin-top: 60px;
+  background-color: #222e50; }
   .experts h1, .experts p {
-    color: #222e50; }
+    color: #fff; }
   .experts p {
     font-size: 20px; }
   .experts .caption {
+    color: #ffd249;
     font-size: 16px; }
   .experts h2 {
     margin-top: 40px; }
@@ -8525,8 +8520,7 @@ p {
 .three-steps {
   padding: 40px 0 60px 0; }
   .three-steps h1 {
-    color: white;
-    background-color: #222e50;
+    color: #222e50;
     padding: 20px; }
   .three-steps h2, .three-steps p {
     color: #222e50; }

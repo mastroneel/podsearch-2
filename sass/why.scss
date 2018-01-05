@@ -11,7 +11,7 @@
   }
   p {
     font-size: 20px;
-    width: 300px;
+    width: 500px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
@@ -37,7 +37,7 @@
     background: none;
     border: none;
     font-size: 28px;
-    margin-top: 0px;
+    margin-top: 15px;
     &:hover {
       color: $blue;
       transition: 0.2s;
@@ -58,17 +58,17 @@
       transition: all 0.5s;
     }
     .less {
-      height: 40px; width: 100%;
+      height: 55px; width: 100%;
       overflow: hidden;
     }
     .more {
-      height: 200px;
+      height: 215px;
       width: 100%;
       overflow: auto;
     }
     .button {
       display: block;
-      margin: 150px auto 0 auto;
+      margin: 40px auto 0 auto;
       width: 280px;
     }
 }
@@ -104,6 +104,9 @@
 
 @media (max-width: 540px) {
   .why {
+    p {
+      width: 290px;
+    }
     .more {
       height: 260px;
     }

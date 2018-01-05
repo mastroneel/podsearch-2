@@ -23,12 +23,18 @@
     }
   }
   h1 {
-    font-size: 50px;
-    margin-top: 30%;
+    font-size: 35px;
+    margin-top: 20%;
     text-align: center;
     color: $white;
     text-transform: uppercase;
     padding-bottom: 40px;
+    letter-spacing: 1px;
+    span {
+      font-family: 'ptserif', serif;
+      font-size: 11px;
+      display: block;
+    }
   }
 }
 
