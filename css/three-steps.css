@@ -1,0 +1,35 @@
+.three-steps {
+  padding: 40px 0 60px 0; }
+  .three-steps h1 {
+    color: #262626;
+    padding-top: 20px;
+    text-transform: uppercase; }
+  .three-steps h2 {
+    color: #2E5077; }
+  .three-steps p {
+    color: #262626; }
+  .three-steps .step {
+    margin-top: 40px; }
+  .three-steps p {
+    font-size: 20px;
+    width: 90%;
+    display: block;
+    margin: 0 auto; }
+  .three-steps .number {
+    height: 60px;
+    width: 60px;
+    color: #4DA1A9;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    font-size: 36px;
+    margin-top: -2px; }
+  .three-steps .underline {
+    height: 0;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 4px solid #4DA1A9;
+    margin-bottom: 40px; }
+
+/*# sourceMappingURL=three-steps.css.map */

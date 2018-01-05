@@ -1,0 +1,23 @@
+.experts {
+  padding: 40px 0 60px 0;
+  margin-top: 60px;
+  background-color: #262626; }
+  .experts h1, .experts p {
+    color: #fff; }
+  .experts h1 {
+    text-transform: uppercase; }
+  .experts p {
+    font-size: 20px; }
+  .experts .caption {
+    color: #4DA1A9;
+    font-size: 16px; }
+  .experts h2 {
+    margin-top: 40px; }
+  .experts .underline {
+    height: 0;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 4px solid #4DA1A9;
+    margin-bottom: 40px; }
+
+/*# sourceMappingURL=experts.css.map */

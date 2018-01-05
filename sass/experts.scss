@@ -3,18 +3,28 @@
 .experts {
   padding: 40px 0 60px 0;
   margin-top: 60px;
-  background-color: $blue;
+  background-color: $dark-gray;
   h1, p {
     color: $white;
+  }
+  h1 {
+    text-transform: uppercase;
   }
   p {
     font-size: 20px;
   }
   .caption {
-    color: $yellow;
+    color: $accent-color;
     font-size: 16px;
   }
   h2 {
     margin-top: 40px;
+  }
+  .underline {
+    height: 0;
+    width: 300px;
+    margin: 0 auto;
+    border-bottom: 4px solid $accent-color;
+    margin-bottom: 40px;
   }
 }

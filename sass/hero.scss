@@ -12,7 +12,7 @@
   background:
       linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
       url("../img/placeholder.jpg");
-  background-position: right;
+  background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
   .img-row {
@@ -22,18 +22,23 @@
       margin-top: 10px;
     }
   }
-  h1 {
-    font-size: 35px;
-    margin-top: 20%;
-    text-align: center;
-    color: $white;
-    text-transform: uppercase;
-    padding-bottom: 40px;
-    letter-spacing: 1px;
-    span {
-      font-family: 'ptserif', serif;
-      font-size: 11px;
-      display: block;
+  .hero-text {
+    background-color: $dark-gray;
+    padding: 8% 20px 70px 20px;
+    margin-top: -72px;
+    h1 {
+      font-size: 35px;
+      // margin-top: 20%;
+      text-align: center;
+      color: $white;
+      text-transform: uppercase;
+      padding-bottom: 40px;
+      letter-spacing: 1px;
+      span {
+        font-family: 'ptserif', serif;
+        font-size: 11px;
+        display: block;
+      }
     }
   }
 }
@@ -42,39 +47,26 @@
 @media (min-width: 1800px) and (min-height: 1100px) {
   .hero {
     h1 {
-      font-size: 60px;
+      // font-size: 60px;
     }
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 767px) {
   .hero {
-    h1 {
-      font-size: 30px;
+    .hero-text {
+      background: none;
+      margin-top: 70px;
     }
   }
 }
 
-@media (max-height: 610px) {
+@media (max-width: 450px) {
   .hero {
-    h1 {
-      font-size: 30px;
-    }
-  }
-}
-
-@media (max-height: 450px) {
-  .hero {
-    h1 {
-      margin-top: 50px;
-    }
-  }
-}
-
-@media (max-height: 330px) {
-  .hero {
-    h1 {
-      margin-top: 40px;
+    .hero-text {
+      h1 {
+        font-size: 25px;
+      }
     }
   }
 }
