@@ -1,45 +1,3 @@
-#carousel {
-  position: relative;
-  width: 100%;
-  margin: 0 auto; }
-
-#slides {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-  min-height: 395px; }
-
-#slides ul {
-  list-style: none;
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  position: relative; }
-
-#slides li {
-  width: 100%;
-  float: left;
-  text-align: center;
-  position: relative; }
-
-/* Styling for prev and next buttons */
-#buttons {
-  padding: 0 0 5px 0;
-  float: right; }
-
-#buttons a {
-  text-align: center;
-  display: block;
-  font-size: 50px;
-  float: left;
-  outline: 0;
-  margin: 0 120px;
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  padding: 9px;
-  width: 35px; }
-
 .hero {
   width: 100%;
   height: 100vh;
@@ -48,7 +6,8 @@
   background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("../img/placeholder.jpg");
   background-position: left;
   background-size: cover;
-  background-repeat: no-repeat; }
+  background-repeat: no-repeat;
+  /* Styling for prev and next buttons */ }
   .hero .img-row {
     text-align: left; }
     .hero .img-row img {
@@ -85,6 +44,41 @@
       color: #fff;
       font-size: 20px;
       margin-bottom: 40px; }
+  .hero #carousel {
+    position: relative;
+    width: 100%;
+    margin: 0 auto; }
+  .hero #slides {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    min-height: 395px; }
+  .hero #slides ul {
+    list-style: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative; }
+  .hero #slides li {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: relative; }
+  .hero #buttons {
+    padding: 0 0 5px 0;
+    float: right; }
+  .hero #buttons a {
+    text-align: center;
+    display: block;
+    font-size: 50px;
+    float: left;
+    outline: 0;
+    margin: 0 120px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 9px;
+    width: 35px; }
 
 @media (max-width: 767px) {
   .hero .hero-text {

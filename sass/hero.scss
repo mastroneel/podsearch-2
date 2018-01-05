@@ -1,91 +1,5 @@
 @import 'variables';
 
-
-#carousel {
-position: relative;
-width:100%;
-margin:0 auto;
-}
-
-#slides {
-overflow: hidden;
-position: relative;
-width: 100%;
-min-height: 395px;
-}
-
-#slides ul {
-list-style: none;
-width:100%;
-// height:250px;
-margin: 0;
-padding: 0;
-position: relative;
-}
-
- #slides li {
-width:100%;
-// height:250px;
-float:left;
-text-align: center;
-position: relative;
-}
-/* Styling for prev and next buttons */
-// .btn-bar{
-//     max-width: 346px;
-//     margin: 0 auto;
-//     display: block;
-//     position: relative;
-//     top: 40px;
-//     width: 100%;
-// }
-
- #buttons {
-padding:0 0 5px 0;
-float:right;
-}
-
-#buttons a {
-text-align:center;
-display:block;
-font-size:50px;
-float:left;
-outline:0;
-margin:0 120px;
-color:#fff;
-text-decoration:none;
-display:block;
-padding:9px;
-width:35px;
-}
-
-
-//
-// .quoteContainer, .authorContainer {
-// display: table;
-// width: 100%;
-// }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .hero {
   width: 100%;
   height: 100vh;
@@ -146,6 +60,65 @@ width:35px;
       margin-bottom: 40px;
     }
   }
+  // slider styles
+  #carousel {
+  position: relative;
+  width:100%;
+  margin:0 auto;
+  }
+
+  #slides {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+  min-height: 395px;
+  }
+
+  #slides ul {
+  list-style: none;
+  width:100%;
+  // height:250px;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  }
+
+   #slides li {
+  width:100%;
+  // height:250px;
+  float:left;
+  text-align: center;
+  position: relative;
+  }
+  /* Styling for prev and next buttons */
+  // .btn-bar{
+  //     max-width: 346px;
+  //     margin: 0 auto;
+  //     display: block;
+  //     position: relative;
+  //     top: 40px;
+  //     width: 100%;
+  // }
+
+   #buttons {
+  padding:0 0 5px 0;
+  float:right;
+  }
+
+  #buttons a {
+  text-align:center;
+  display:block;
+  font-size:50px;
+  float:left;
+  outline:0;
+  margin:0 120px;
+  color:#fff;
+  text-decoration:none;
+  display:block;
+  padding:9px;
+  width:35px;
+  }
+
 }
 
 // Media queries
