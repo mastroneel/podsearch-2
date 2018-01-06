@@ -8,7 +8,7 @@
   .experts p {
     font-size: 20px; }
   .experts .caption {
-    color: #4DA1A9;
+    color: #f4d445;
     font-size: 16px; }
   .experts h2 {
     margin-top: 40px; }
@@ -16,7 +16,7 @@
     height: 0;
     width: 300px;
     margin: 0 auto;
-    border-bottom: 4px solid #4DA1A9;
+    border-bottom: 4px solid #f4d445;
     margin-bottom: 40px; }
   .experts audio {
     margin-top: 30px; }

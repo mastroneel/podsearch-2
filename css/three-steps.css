@@ -5,7 +5,7 @@
     padding-top: 20px;
     text-transform: uppercase; }
   .three-steps h2 {
-    color: #2E5077; }
+    color: #56b6a5; }
   .three-steps p {
     color: #262626; }
   .three-steps .step {
@@ -18,7 +18,7 @@
   .three-steps .number {
     height: 60px;
     width: 60px;
-    color: #4DA1A9;
+    color: #f4d445;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -29,7 +29,7 @@
     height: 0;
     width: 300px;
     margin: 0 auto;
-    border-bottom: 4px solid #4DA1A9;
+    border-bottom: 4px solid #f4d445;
     margin-bottom: 40px; }
 
 /*# sourceMappingURL=three-steps.css.map */

@@ -3,7 +3,7 @@
   min-height: 630px; }
   .why h1 {
     margin-top: 40px;
-    color: #2E5077;
+    color: #56b6a5;
     text-transform: uppercase; }
   .why p {
     font-size: 20px;
@@ -14,7 +14,7 @@
   .why .underline {
     height: 0;
     width: 80px;
-    border-bottom: 4px solid #4DA1A9;
+    border-bottom: 4px solid #f4d445;
     display: block;
     margin: 0 auto; }
   .why .see-more-text {
@@ -34,7 +34,7 @@
     .why .more-button:focus, .why .less-button:focus {
       outline: none; }
     .why .more-button button, .why .less-button button {
-      color: #4DA1A9;
+      color: #f4d445;
       background: none;
       font-family: 'grotesque', sans-serif;
       text-transform: uppercase;

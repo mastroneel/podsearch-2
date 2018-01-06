@@ -5,7 +5,7 @@
   .unique .underline {
     height: 0;
     width: 300px;
-    border-bottom: 4px solid #4DA1A9;
+    border-bottom: 4px solid #f4d445;
     margin: 0 auto; }
   .unique h1 {
     text-transform: uppercase; }
@@ -16,7 +16,7 @@
   .unique h2 {
     color: #fff; }
   .unique button {
-    color: #4DA1A9;
+    color: #f4d445;
     background: none;
     font-family: 'grotesque', sans-serif;
     text-transform: uppercase;
