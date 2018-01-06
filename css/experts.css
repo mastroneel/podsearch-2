@@ -1,6 +1,5 @@
 .experts {
   padding: 40px 0 60px 0;
-  margin-top: -120px;
   background-color: #262626; }
   .experts h1, .experts p {
     color: #fff; }
@@ -19,5 +18,7 @@
     margin: 0 auto;
     border-bottom: 4px solid #4DA1A9;
     margin-bottom: 40px; }
+  .experts audio {
+    margin-top: 30px; }
 
 /*# sourceMappingURL=experts.css.map */
