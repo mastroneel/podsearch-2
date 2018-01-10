@@ -1,28 +1,31 @@
 .why {
   padding: 40px 0 40px 0;
-  min-height: 630px; }
+  min-height: 555px; }
+  .why h1, .why p {
+    color: #222e50; }
   .why h1 {
     margin-top: 40px;
-    color: #56b6a5;
-    text-transform: uppercase; }
+    font-size: 45px; }
   .why p {
-    font-size: 20px;
-    width: 500px;
+    font-size: 24px;
+    width: 800px;
     display: block;
     margin: 0 auto;
-    margin-top: 20px; }
+    margin-top: 20px;
+    font-family: 'calibri', sans-serif; }
   .why .underline {
     height: 0;
     width: 80px;
-    border-bottom: 4px solid #f4d445;
+    border-bottom: 4px solid #ffd249;
     display: block;
     margin: 0 auto; }
   .why .see-more-text {
     width: auto;
     font-style: italic;
-    margin-top: 2px;
-    width: 280px; }
+    margin-top: 2px; }
   .why .more-button, .why .less-button {
+    font-family: 'calibri', sans-serif;
+    color: #ffd249;
     text-decoration: underline;
     transition: 0.2s;
     background: none;
@@ -30,22 +33,11 @@
     font-size: 28px;
     margin-top: 15px; }
     .why .more-button:hover, .why .less-button:hover {
+      color: #222e50;
       transition: 0.2s; }
     .why .more-button:focus, .why .less-button:focus {
       outline: none; }
-    .why .more-button button, .why .less-button button {
-      color: #f4d445;
-      background: none;
-      font-family: 'grotesque', sans-serif;
-      text-transform: uppercase;
-      background: none;
-      border: none;
-      font-size: 25px;
-      text-decoration: underline; }
-      .why .more-button button:focus, .why .less-button button:focus {
-        outline: none; }
   .why .container {
-    width: 100%;
     margin: auto;
     text-align: center;
     transition: all 0.5s; }
@@ -57,35 +49,48 @@
     width: 100%;
     overflow: hidden; }
   .why .more {
-    height: 215px;
-    width: 100%;
+    height: 170px;
     overflow: auto; }
   .why .button {
     display: block;
     margin: 40px auto 0 auto;
-    width: 280px;
-    font-size: 22px; }
+    width: 280px; }
 
-@media (min-width: 993px) {
-  .why .button-xs-sm {
-    display: none; } }
-@media (max-width: 992px) {
-  .why .button-md-lg {
-    display: none; }
-  .why .button {
-    margin-top: 10px; } }
-@media (max-width: 950px) {
-  .why .more {
-    height: 210px; } }
-@media (max-width: 540px) {
-  .why p {
-    width: 290px; }
-  .why .more {
-    height: 260px; } }
-@media (max-width: 390px) {
+@media (min-width: 1500px) and (min-height: 900px) {
+  .why {
+    min-height: 700px; }
+    .why h1 {
+      font-size: 66px; }
+    .why p {
+      font-size: 38px;
+      width: 1300px; } }
+@media (max-width: 1035px) {
+  .why {
+    min-height: 515px; }
+    .why h1 {
+      font-size: 40px; }
+    .why p {
+      width: 600px;
+      font-size: 24px; }
+    .why .more {
+      height: 170px; } }
+@media (max-width: 710px) {
   .why h1 {
-    font-size: 25px; }
+    font-size: 35px; }
   .why p {
-    width: 300px; } }
+    width: 500px;
+    font-size: 22px; } }
+@media (max-width: 530px) {
+  .why h1 {
+    font-size: 30px; }
+  .why p {
+    width: auto;
+    font-size: 20px; } }
+@media (max-width: 420px) {
+  .why h1 {
+    font-size: 30px; }
+  .why p {
+    width: auto;
+    font-size: 18px; } }
 
 /*# sourceMappingURL=why.css.map */

@@ -1,24 +1,30 @@
 .experts {
   padding: 40px 0 60px 0;
-  background-color: #262626; }
+  margin-top: 60px;
+  background-color: #222e50; }
   .experts h1, .experts p {
     color: #fff; }
   .experts h1 {
-    text-transform: uppercase; }
+    font-size: 40px; }
   .experts p {
-    font-size: 20px; }
+    font-size: 24px; }
   .experts .caption {
-    color: #f4d445;
+    color: #ffd249;
     font-size: 16px; }
   .experts h2 {
     margin-top: 40px; }
-  .experts .underline {
-    height: 0;
-    width: 300px;
-    margin: 0 auto;
-    border-bottom: 4px solid #f4d445;
-    margin-bottom: 40px; }
   .experts audio {
     margin-top: 30px; }
+
+@media (min-width: 1500px) and (min-height: 900px) {
+  .experts h1 {
+    font-size: 56px; }
+  .experts p {
+    font-size: 30px; } }
+@media (max-width: 530px) {
+  .experts h1 {
+    font-size: 35px; }
+  .experts p {
+    font-size: 18px; } }
 
 /*# sourceMappingURL=experts.css.map */

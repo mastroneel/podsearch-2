@@ -1,6 +1,6 @@
 .more-info-desktop .col-xs-12, .more-info-desktop .col-sm-6, .more-info-mobile .col-xs-12, .more-info-mobile .col-sm-6 {
-  min-height: 40vw;
-  padding-top: 100px; }
+  min-height: 450px;
+  padding-top: 75px; }
 .more-info-desktop .button-container, .more-info-mobile .button-container {
   min-height: 0;
   margin-top: -20px; }
@@ -21,46 +21,101 @@
   background-position: center;
   background-size: cover; }
 .more-info-desktop h1, .more-info-desktop p, .more-info-mobile h1, .more-info-mobile p {
-  color: #262626; }
+  color: #222e50; }
+.more-info-desktop h1, .more-info-mobile h1 {
+  font-size: 35px; }
 .more-info-desktop p, .more-info-desktop .see-more-text, .more-info-mobile p, .more-info-mobile .see-more-text {
-  font-size: 20px;
-  width: 80%;
+  font-size: 22px;
+  width: 90%;
   display: block;
   margin: 0 auto; }
+.more-info-desktop .see-more-text, .more-info-mobile .see-more-text {
+  font-style: italic; }
+.more-info-desktop .more-button, .more-info-desktop .less-button, .more-info-mobile .more-button, .more-info-mobile .less-button {
+  font-family: 'roboto', serif;
+  color: #ffd249;
+  text-decoration: underline;
+  transition: 0.2s;
+  background: none;
+  border: none;
+  font-size: 28px;
+  margin-top: 0px; }
+  .more-info-desktop .more-button:hover, .more-info-desktop .less-button:hover, .more-info-mobile .more-button:hover, .more-info-mobile .less-button:hover {
+    color: #222e50;
+    transition: 0.2s; }
+  .more-info-desktop .more-button:focus, .more-info-desktop .less-button:focus, .more-info-mobile .more-button:focus, .more-info-mobile .less-button:focus {
+    outline: none; }
+.more-info-desktop .container, .more-info-mobile .container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  transition: all 0.5s; }
+.more-info-desktop .post, .more-info-mobile .post {
+  margin-bottom: 10px;
+  transition: all 0.5s; }
+.more-info-desktop .less, .more-info-mobile .less {
+  height: 40px;
+  width: 100%;
+  overflow: hidden; }
+.more-info-desktop .more, .more-info-mobile .more {
+  height: 200px;
+  width: 100%;
+  overflow: auto; }
 
-@media (min-width: 2400px) and (min-height: 1300px) {
+.more-info-desktop #more-info .carousel-indicators li {
+  height: 15px;
+  width: 15px;
+  margin: 5px;
+  border: 1px solid #262626; }
+  .more-info-desktop #more-info .carousel-indicators li.active {
+    background-color: #262626; }
+.more-info-desktop #more-info .carousel-inner .col-sm-12, .more-info-desktop #more-info .carousel-inner .col-sm-6 {
+  height: 90vh; }
+  .more-info-desktop #more-info .carousel-inner .col-sm-12 h1, .more-info-desktop #more-info .carousel-inner .col-sm-6 h1 {
+    margin-top: 15vh; }
+
+@media (min-width: 1500px) and (min-height: 900px) {
   .more-info-desktop .col-sm-6 {
-    min-height: 650px; }
+    min-height: 550px; }
   .more-info-desktop h1 {
-    font-size: 46px; }
+    font-size: 40px; }
+  .more-info-desktop p {
+    font-size: 25px; } }
+@media (min-width: 1800px) and (min-height: 1100px) {
+  .more-info-desktop h1 {
+    font-size: 50px; }
+  .more-info-desktop p {
+    font-size: 30px; } }
+@media (min-width: 2300px) and (min-height: 1300px) {
+  .more-info-desktop .col-sm-6 {
+    min-height: 700px; }
+  .more-info-desktop h1 {
+    font-size: 60px; }
   .more-info-desktop p, .more-info-desktop .see-more-text {
-    font-size: 30px;
+    font-size: 38px;
     width: 60%; } }
+@media (max-width: 1260px) {
+  .more-info-desktop h1 {
+    font-size: 35px; }
+  .more-info-desktop p {
+    font-size: 25px; } }
 @media (max-width: 1065px) {
   .more-info-desktop h1, .more-info-mobile h1 {
-    font-size: 25px; }
+    font-size: 30px; }
   .more-info-desktop p, .more-info-desktop .see-more-text, .more-info-mobile p, .more-info-mobile .see-more-text {
-    font-size: 18px;
+    font-size: 22px;
     width: 90%; } }
-@media (max-width: 980px) {
-  .more-info-desktop .col-sm-6 {
-    padding-top: 70px; } }
 @media (min-width: 768px) {
   .more-info-mobile {
     display: none; } }
 @media (max-width: 767px) {
   .more-info-desktop {
-    display: none; }
-
-  .more-info-mobile .col-xs-12 {
-    height: 50vh;
-    min-height: 450px;
-    padding-top: 100px; } }
+    display: none; } }
 @media (max-width: 400px) {
   .more-info-desktop h1, .more-info-mobile h1 {
-    font-size: 22px; }
+    font-size: 28px; }
   .more-info-desktop p, .more-info-desktop .see-more-text, .more-info-mobile p, .more-info-mobile .see-more-text {
-    font-size: 16px;
+    font-size: 20px;
     width: 95%; } }
 
 /*# sourceMappingURL=more-info.css.map */

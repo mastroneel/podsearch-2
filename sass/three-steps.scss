@@ -3,21 +3,22 @@
 .three-steps {
   padding: 40px 0 60px 0;
   h1 {
-    color: $dark-gray;
-    padding-top: 20px;
-    text-transform: uppercase;
+    color: $blue;
+    padding: 20px;
+    font-size: 40px;
+    .tm {
+      font-size: 22px;
+      vertical-align: text-top;
+    }
   }
-  h2 {
-    color: $turquoise;
-  }
-  p {
-    color: $dark-gray;
+  h2, p {
+    color: $blue;
   }
   .step {
     margin-top: 40px;
   }
   p {
-    font-size: 20px;
+    font-size: 18px;
     width: 90%;
     display: block;
     margin: 0 auto;
@@ -25,7 +26,8 @@
   .number {
     height: 60px;
     width: 60px;
-    color: $accent-color;
+    background-color: $yellow;
+    border: 1px solid $yellow;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
@@ -33,11 +35,57 @@
     font-size: 36px;
     margin-top: -2px;
   }
-  .underline {
-    height: 0;
-    width: 300px;
-    margin: 0 auto;
-    border-bottom: 4px solid $accent-color;
-    margin-bottom: 40px;
+  .button-row {
+    margin-top: 60px;
+  }
+}
+
+// Media queries
+@media (min-width: 1500px) and (min-height: 900px) {
+  .three-steps {
+    p {
+      font-size: 28px;
+    }
+  }
+}
+
+@media (min-width: 2500px) and (min-height: 1100px) {
+  .three-steps {
+    h2 {
+      font-size: 45px;
+    }
+    p {
+      font-size: 32px;
+    }
+  }
+}
+
+@media (max-width: 1035px) {
+  .three-steps {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .three-steps {
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 412px) {
+  .three-steps {
+    .button {
+      font-size: 15px;
+    }
   }
 }

@@ -2,32 +2,48 @@
 
 .experts {
   padding: 40px 0 60px 0;
-  // margin-top: -120px;
-  background-color: $dark-gray;
+  margin-top: 60px;
+  background-color: $blue;
   h1, p {
     color: $white;
   }
   h1 {
-    text-transform: uppercase;
+    font-size: 40px;
   }
   p {
-    font-size: 20px;
+    font-size: 24px;
   }
   .caption {
-    color: $accent-color;
+    color: $yellow;
     font-size: 16px;
   }
   h2 {
     margin-top: 40px;
   }
-  .underline {
-    height: 0;
-    width: 300px;
-    margin: 0 auto;
-    border-bottom: 4px solid $accent-color;
-    margin-bottom: 40px;
-  }
   audio {
     margin-top: 30px;
+  }
+}
+
+// Media queries
+@media (min-width: 1500px) and (min-height: 900px) {
+  .experts {
+    h1 {
+      font-size: 56px;
+    }
+    p {
+      font-size: 30px;
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .experts {
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      font-size: 18px;
+    }
   }
 }

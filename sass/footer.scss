@@ -1,11 +1,15 @@
 @import 'variables';
 
 .footer {
-  background-color: $turquoise;
+  background-color: $blue;
   h2 {
     font-size: 18px;
     margin-top: 160px;
     margin-bottom: 15px;
     color: $white;
+    .tm {
+      font-size: 14px;
+      vertical-align: text-top;
+    }
   }
 }

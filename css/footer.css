@@ -1,9 +1,12 @@
 .footer {
-  background-color: #56b6a5; }
+  background-color: #222e50; }
   .footer h2 {
     font-size: 18px;
     margin-top: 160px;
     margin-bottom: 15px;
     color: #fff; }
+    .footer h2 .tm {
+      font-size: 14px;
+      vertical-align: text-top; }
 
 /*# sourceMappingURL=footer.css.map */

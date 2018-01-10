@@ -1,35 +1,55 @@
 .three-steps {
   padding: 40px 0 60px 0; }
   .three-steps h1 {
-    color: #262626;
-    padding-top: 20px;
-    text-transform: uppercase; }
-  .three-steps h2 {
-    color: #56b6a5; }
-  .three-steps p {
-    color: #262626; }
+    color: #222e50;
+    padding: 20px;
+    font-size: 40px; }
+    .three-steps h1 .tm {
+      font-size: 22px;
+      vertical-align: text-top; }
+  .three-steps h2, .three-steps p {
+    color: #222e50; }
   .three-steps .step {
     margin-top: 40px; }
   .three-steps p {
-    font-size: 20px;
+    font-size: 18px;
     width: 90%;
     display: block;
     margin: 0 auto; }
   .three-steps .number {
     height: 60px;
     width: 60px;
-    color: #f4d445;
+    background-color: #ffd249;
+    border: 1px solid #ffd249;
     border-radius: 50%;
     display: block;
     margin: 0 auto;
     padding-top: 10px;
     font-size: 36px;
     margin-top: -2px; }
-  .three-steps .underline {
-    height: 0;
-    width: 300px;
-    margin: 0 auto;
-    border-bottom: 4px solid #f4d445;
-    margin-bottom: 40px; }
+  .three-steps .button-row {
+    margin-top: 60px; }
+
+@media (min-width: 1500px) and (min-height: 900px) {
+  .three-steps p {
+    font-size: 28px; } }
+@media (min-width: 2500px) and (min-height: 1100px) {
+  .three-steps h2 {
+    font-size: 45px; }
+  .three-steps p {
+    font-size: 32px; } }
+@media (max-width: 1035px) {
+  .three-steps h1 {
+    font-size: 35px; }
+  .three-steps p {
+    font-size: 16px; } }
+@media (max-width: 450px) {
+  .three-steps h1 {
+    font-size: 30px; }
+  .three-steps p {
+    font-size: 16px; } }
+@media (max-width: 412px) {
+  .three-steps .button {
+    font-size: 15px; } }
 
 /*# sourceMappingURL=three-steps.css.map */

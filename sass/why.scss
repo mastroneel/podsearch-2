@@ -2,26 +2,26 @@
 
 .why {
   padding: 40px 0 40px 0;
-  min-height: 630px;
+  min-height: 555px;
   h1, p {
-    // color: $blue;
+    color: $blue;
   }
   h1 {
     margin-top: 40px;
-    color: $turquoise;
-    text-transform: uppercase;
+    font-size: 45px;
   }
   p {
-    font-size: 20px;
-    width: 500px;
+    font-size: 24px;
+    width: 800px;
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+    font-family: 'calibri', sans-serif;
   }
   .underline {
     height: 0;
     width: 80px;
-    border-bottom: 4px solid $accent-color;
+    border-bottom: 4px solid $yellow;
     display: block;
     margin: 0 auto;
   }
@@ -29,12 +29,11 @@
     width: auto;
     font-style: italic;
     margin-top: 2px;
-    width: 280px;
+    // width: 280px;
   }
-
   .more-button, .less-button {
-    // font-family: 'roboto', serif;
-    // color: $yellow;
+    font-family: 'calibri', sans-serif;
+    color: $yellow;
     text-decoration: underline;
     transition: 0.2s;
     background: none;
@@ -42,29 +41,16 @@
     font-size: 28px;
     margin-top: 15px;
     &:hover {
-      // color: $blue;
+      color: $blue;
       transition: 0.2s;
     }
     &:focus {
       outline: none;
     }
-    button {
-      color: $accent-color;
-      background: none;
-      font-family: 'grotesque', sans-serif;
-      text-transform: uppercase;
-      background: none;
-      border: none;
-      font-size: 25px;
-      text-decoration: underline;
-      &:focus {
-        outline: none;
-      }
-    }
   }
   // see more container and button styles
   .container {
-    width: 100%;
+    // width: 100%;
     margin: auto;
     text-align: center;
     transition: all 0.5s;
@@ -78,65 +64,135 @@
       overflow: hidden;
     }
     .more {
-      height: 215px;
-      width: 100%;
+      height: 170px;
+      // width: 100%;
       overflow: auto;
     }
     .button {
       display: block;
       margin: 40px auto 0 auto;
       width: 280px;
-      font-size: 22px;
     }
 }
 
 
 // Media queries
-@media (min-width: 993px) {
+@media (min-width: 1500px) and (min-height: 900px) {
   .why {
-    .button-xs-sm {
-      display: none;
-    }
-  }
-}
-
-@media (max-width: 992px) {
-  .why {
-    .button-md-lg {
-      display: none;
-    }
-    .button {
-      margin-top: 10px;
-    }
-  }
-}
-
-@media (max-width: 950px) {
-  .why {
-    .more {
-      height: 210px;
-    }
-  }
-}
-
-@media (max-width: 540px) {
-  .why {
-    p {
-      width: 290px;
-    }
-    .more {
-      height: 260px;
-    }
-  }
-}
-
-@media (max-width: 390px) {
-  .why {
+    min-height: 700px;
     h1 {
-      font-size: 25px;
+      font-size: 66px;
     }
     p {
-      width: 300px;
+      font-size: 38px;
+      width: 1300px;
     }
   }
 }
+
+@media (max-width: 1035px) {
+  .why {
+    min-height: 515px;
+    h1 {
+      font-size: 40px;
+    }
+    p {
+      width: 600px;
+      font-size: 24px;
+    }
+    .more {
+      height: 170px;
+    }
+  }
+}
+
+@media (max-width: 710px) {
+  .why {
+    // min-height: 560px;
+    h1 {
+      font-size: 35px;
+    }
+    p {
+      width: 500px;
+      font-size: 22px;
+    }
+  }
+}
+
+@media (max-width: 530px) {
+  .why {
+    // min-height: 560px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      width: auto;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .why {
+    // min-height: 560px;
+    h1 {
+      font-size: 30px;
+    }
+    p {
+      width: auto;
+      font-size: 18px;
+    }
+  }
+}
+
+
+
+
+// @media (min-width: 993px) {
+//   .why {
+//     .button-xs-sm {
+//       display: none;
+//     }
+//   }
+// }
+//
+// @media (max-width: 992px) {
+//   .why {
+//     .button-md-lg {
+//       display: none;
+//     }
+//     .button {
+//       margin-top: 10px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 950px) {
+//   .why {
+//     .more {
+//       height: 210px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 540px) {
+//   .why {
+//     p {
+//       width: 290px;
+//     }
+//     .more {
+//       height: 260px;
+//     }
+//   }
+// }
+//
+// @media (max-width: 390px) {
+//   .why {
+//     h1 {
+//       font-size: 25px;
+//     }
+//     p {
+//       width: 300px;
+//     }
+//   }
+// }
