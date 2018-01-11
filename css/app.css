@@ -8271,6 +8271,15 @@ p {
     font-size: 35px; }
   .hero .text-container .button {
     font-size: 15px; } }
+@media (max-width: 767px) {
+  .hero .hero-1 {
+    background-image: url("../img/hero-1-mobile.jpg"); }
+  .hero .hero-2 {
+    background-image: url("../img/hero-2-mobile.jpg"); }
+  .hero .hero-3 {
+    background-image: url("../img/hero-3-mobile.jpg"); }
+  .hero .hero-4 {
+    background-image: url("../img/hero-4-mobile.jpg"); } }
 @media (min-width: 571px) and (max-width: 767px) {
   .hero .col-xs-12 {
     margin: 0 auto; }
@@ -8323,6 +8332,32 @@ p {
 @media (max-width: 1024px) and (min-height: 1250px) {
   .hero .text-container {
     height: 35vh; } }
+@media (max-height: 692px) {
+  .hero .text-container {
+    height: 70vh; } }
+@media (max-height: 605px) {
+  .hero .text-container h1 {
+    font-size: 25px; }
+    .hero .text-container h1 .tm {
+      font-size: 16px;
+      margin-top: -35px;
+      margin-left: 140px; }
+  .hero .text-container .large {
+    font-size: 30px; } }
+@media (max-height: 466px) {
+  .hero .img-container img {
+    width: 90px; }
+  .hero .text-container {
+    height: auto; }
+    .hero .text-container h1 {
+      margin-bottom: 10px; }
+    .hero .text-container .button {
+      padding: 5px; } }
+@media (max-height: 350px) {
+  .hero .img-container img {
+    display: none; }
+  .hero .text-container {
+    margin-top: 15px; } }
 .how-does-it-work {
   padding: 40px 0 60px 0;
   text-align: center; }
@@ -8484,6 +8519,8 @@ p {
     .unique .more-button, .unique .less-button {
       font-size: 20px;
       margin-top: 20px; }
+    .unique .less {
+      height: 50px; }
     .unique .more {
       height: 160px; }
     .unique .underline {
