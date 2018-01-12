@@ -2,7 +2,7 @@
 
 .why {
   padding: 40px 0 40px 0;
-  min-height: 555px;
+  // min-height: 555px;
   h1, p {
     color: $blue;
   }
@@ -25,61 +25,73 @@
     display: block;
     margin: 0 auto;
   }
-  .see-more-text {
-    width: auto;
-    font-style: italic;
-    margin-top: 2px;
-    // width: 280px;
-  }
-  .more-button, .less-button {
-    font-family: 'calibri', sans-serif;
+  a, a:visited {
     color: $yellow;
-    text-decoration: underline;
     transition: 0.2s;
-    background: none;
-    border: none;
-    font-size: 28px;
-    margin-top: 15px;
+    i {
+      font-size: 36px;
+    }
     &:hover {
+      text-decoration: none;
       color: $blue;
       transition: 0.2s;
     }
-    &:focus {
-      outline: none;
-    }
   }
+  // .see-more-text {
+  //   width: auto;
+  //   font-style: italic;
+  //   margin-top: 2px;
+  //   // width: 280px;
+  // }
+  // .more-button, .less-button {
+  //   font-family: 'calibri', sans-serif;
+  //   color: $yellow;
+  //   text-decoration: underline;
+  //   transition: 0.2s;
+  //   background: none;
+  //   border: none;
+  //   font-size: 28px;
+  //   margin-top: 15px;
+  //   &:hover {
+  //     color: $blue;
+  //     transition: 0.2s;
+  //   }
+  //   &:focus {
+  //     outline: none;
+  //   }
+  // }
   // see more container and button styles
-  .container {
-    // width: 100%;
-    margin: auto;
-    text-align: center;
-    transition: all 0.5s;
-  }
-    .post {
-      margin-bottom: 10px;
-      transition: all 0.5s;
-    }
-    .less {
-      height: 55px; width: 100%;
-      overflow: hidden;
-    }
-    .more {
-      height: 170px;
-      // width: 100%;
-      overflow: auto;
-    }
-    .button {
-      display: block;
-      margin: 40px auto 0 auto;
-      width: 280px;
-    }
+  // .container {
+  //   // width: 100%;
+  //   margin: auto;
+  //   text-align: center;
+  //   transition: all 0.5s;
+  // }
+  //   .post {
+  //     margin-bottom: 10px;
+  //     transition: all 0.5s;
+  //   }
+  //   .less {
+  //     height: 55px; width: 100%;
+  //     overflow: hidden;
+  //   }
+  //   .more {
+  //     height: 170px;
+  //     // width: 100%;
+  //     overflow: auto;
+  //   }
+  //   .button {
+  //     display: block;
+  //     margin: 40px auto 0 auto;
+  //     width: 280px;
+  //   }
 }
 
 
 // Media queries
 @media (min-width: 1500px) and (min-height: 900px) {
   .why {
-    min-height: 700px;
+    // min-height: 700px;
     h1 {
       font-size: 66px;
     }
@@ -92,7 +104,7 @@
 
 @media (max-width: 1035px) {
   .why {
-    min-height: 515px;
+    // min-height: 515px;
     h1 {
       font-size: 40px;
     }

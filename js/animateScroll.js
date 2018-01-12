@@ -1,4 +1,4 @@
-$('a[href*="#how-does-it-work"]')
+$('a[href*="#how-does-it-work"], a[href*="#why"], a[href*="#more-info"]')
   .click(function(event) {
     // On-page links
     if (

@@ -1,6 +1,5 @@
 .why {
-  padding: 40px 0 40px 0;
-  min-height: 555px; }
+  padding: 40px 0 40px 0; }
   .why h1, .why p {
     color: #222e50; }
   .why h1 {
@@ -19,61 +18,30 @@
     border-bottom: 4px solid #ffd249;
     display: block;
     margin: 0 auto; }
-  .why .see-more-text {
-    width: auto;
-    font-style: italic;
-    margin-top: 2px; }
-  .why .more-button, .why .less-button {
-    font-family: 'calibri', sans-serif;
+  .why a, .why a:visited {
     color: #ffd249;
-    text-decoration: underline;
-    transition: 0.2s;
-    background: none;
-    border: none;
-    font-size: 28px;
-    margin-top: 15px; }
-    .why .more-button:hover, .why .less-button:hover {
+    transition: 0.2s; }
+    .why a i, .why a:visited i {
+      font-size: 36px; }
+    .why a:hover, .why a:visited:hover {
+      text-decoration: none;
       color: #222e50;
       transition: 0.2s; }
-    .why .more-button:focus, .why .less-button:focus {
-      outline: none; }
-  .why .container {
-    margin: auto;
-    text-align: center;
-    transition: all 0.5s; }
-  .why .post {
-    margin-bottom: 10px;
-    transition: all 0.5s; }
-  .why .less {
-    height: 55px;
-    width: 100%;
-    overflow: hidden; }
-  .why .more {
-    height: 170px;
-    overflow: auto; }
-  .why .button {
-    display: block;
-    margin: 40px auto 0 auto;
-    width: 280px; }
 
 @media (min-width: 1500px) and (min-height: 900px) {
-  .why {
-    min-height: 700px; }
-    .why h1 {
-      font-size: 66px; }
-    .why p {
-      font-size: 38px;
-      width: 1300px; } }
+  .why h1 {
+    font-size: 66px; }
+  .why p {
+    font-size: 38px;
+    width: 1300px; } }
 @media (max-width: 1035px) {
-  .why {
-    min-height: 515px; }
-    .why h1 {
-      font-size: 40px; }
-    .why p {
-      width: 600px;
-      font-size: 24px; }
-    .why .more {
-      height: 170px; } }
+  .why h1 {
+    font-size: 40px; }
+  .why p {
+    width: 600px;
+    font-size: 24px; }
+  .why .more {
+    height: 170px; } }
 @media (max-width: 710px) {
   .why h1 {
     font-size: 35px; }

@@ -8180,7 +8180,7 @@ p {
   height: 100vh; }
   .hero .text-container {
     margin: 0 auto;
-    height: 80vh;
+    height: 75vh;
     padding: 0 20px;
     width: 100%;
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
@@ -8199,10 +8199,23 @@ p {
         font-size: 20px;
         margin-top: -45px;
         margin-left: 220px; }
+    .hero .text-container .first-heading {
+      margin-bottom: 0; }
+    .hero .text-container .month {
+      display: inline-flex;
+      margin: 0 auto; }
+      .hero .text-container .month .asterisk {
+        font-size: 16px;
+        vertical-align: text-top; }
     .hero .text-container .large {
       font-size: 46px; }
     .hero .text-container p {
       font-size: 18px; }
+  .hero p {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #fff;
+    font-style: italic; }
   .hero .hero-1 {
     background-image: url("../img/hero-1.jpg");
     background-position: left;
@@ -8242,7 +8255,8 @@ p {
     font-size: 36px;
     display: block;
     margin: 20px auto 0 auto;
-    text-decoration: none; }
+    text-decoration: none;
+    margin-left: -100px; }
     .hero i:hover {
       color: #ffd249;
       text-decoration: none; }
@@ -8273,7 +8287,8 @@ p {
     font-size: 15px; } }
 @media (max-width: 767px) {
   .hero .hero-1 {
-    background-image: url("../img/hero-1-mobile.jpg"); }
+    background-image: url("../img/hero-1-mobile.jpg");
+    background-position: left; }
   .hero .hero-2 {
     background-image: url("../img/hero-2-mobile.jpg"); }
   .hero .hero-3 {
@@ -8328,13 +8343,27 @@ p {
     font-size: 65px; } }
 @media (max-width: 768px) and (min-height: 980px) {
   .hero .text-container {
-    height: 50vh; } }
+    height: 50vh; }
+  .hero .hero-1 {
+    background-image: url("../img/hero-1-mobile-2.jpg");
+    background-position: right; } }
 @media (max-width: 1024px) and (min-height: 1250px) {
   .hero .text-container {
-    height: 35vh; } }
+    height: 35vh; }
+  .hero .hero-1 {
+    background-image: url("../img/hero-1-mobile-2.jpg");
+    background-position: right; } }
+@media (max-width: 414px) {
+  .hero .hero-1 {
+    background-image: url("../img/hero-1-mobile-2.jpg");
+    background-position: right; } }
 @media (max-height: 692px) {
   .hero .text-container {
-    height: 70vh; } }
+    height: 70vh; }
+    .hero .text-container h1 {
+      font-size: 28px; }
+    .hero .text-container .large {
+      font-size: 32px; } }
 @media (max-height: 605px) {
   .hero .text-container h1 {
     font-size: 25px; }
@@ -8344,11 +8373,12 @@ p {
       margin-left: 140px; }
   .hero .text-container .large {
     font-size: 30px; } }
-@media (max-height: 466px) {
+@media (max-height: 555px) {
   .hero .img-container img {
     width: 90px; }
   .hero .text-container {
-    height: auto; }
+    height: auto;
+    padding-bottom: 20px; }
     .hero .text-container h1 {
       margin-bottom: 10px; }
     .hero .text-container .button {
@@ -8413,8 +8443,7 @@ p {
     width: 200px; } }
 .unique {
   background-color: #222e50;
-  padding: 40px 0 0 0;
-  min-height: 440px; }
+  padding: 40px 0 40px 0; }
   .unique .underline {
     height: 0;
     width: 300px;
@@ -8427,12 +8456,15 @@ p {
     transition: 0.2s; }
   .unique h2 {
     color: #ffd249; }
-  .unique button, .unique button:visited {
+  .unique a, .unique a:visited {
     color: #ffd249;
     transition: 0.2s; }
-  .unique button:hover {
-    color: #fff;
-    transition: 0.2s; }
+    .unique a i, .unique a:visited i {
+      font-size: 36px; }
+    .unique a:hover, .unique a:visited:hover {
+      text-decoration: none;
+      color: #fff;
+      transition: 0.2s; }
   .unique h1 {
     font-size: 45px; }
   .unique p {
@@ -8444,93 +8476,59 @@ p {
     font-style: italic; }
   .unique h2 {
     font-size: 36px; }
-  .unique button {
-    font-family: 'calibri', sans-serif;
-    text-decoration: underline;
-    font-size: 36px;
-    background: none;
-    border: none; }
-    .unique button:focus {
-      outline: none; }
-  .unique .container {
-    margin: auto;
-    text-align: center;
-    transition: all 0.5s; }
-  .unique .post {
-    margin-bottom: 10px;
-    transition: all 0.5s; }
-  .unique .less {
-    height: 55px;
-    width: 100%;
-    overflow: hidden; }
-  .unique .more {
-    height: 140px;
-    overflow: auto; }
 
 @media (min-width: 1500px) and (min-height: 900px) {
-  .unique {
-    min-height: 470px; }
-    .unique h1 {
-      font-size: 56px; }
-    .unique p {
-      font-size: 30px;
-      width: 1300px; } }
+  .unique h1 {
+    font-size: 56px; }
+  .unique p {
+    font-size: 30px;
+    width: 1300px; } }
 @media (max-width: 1035px) {
-  .unique {
-    min-height: 465px; }
-    .unique h1 {
-      font-size: 42px; }
-    .unique p {
-      width: 600px;
-      font-size: 25px; }
-    .unique .more {
-      height: 134px; } }
+  .unique h1 {
+    font-size: 42px; }
+  .unique p {
+    width: 600px;
+    font-size: 25px; }
+  .unique .more {
+    height: 134px; } }
 @media (max-width: 710px) {
-  .unique {
-    min-height: 493px; }
-    .unique h1 {
-      font-size: 40px; }
-    .unique p {
-      width: 500px;
-      font-size: 24px; }
-    .unique .more-button, .unique .less-button {
-      font-size: 24px;
-      margin-top: 20px; } }
+  .unique h1 {
+    font-size: 40px; }
+  .unique p {
+    width: 500px;
+    font-size: 24px; }
+  .unique .more-button, .unique .less-button {
+    font-size: 24px;
+    margin-top: 20px; } }
 @media (max-width: 530px) {
-  .unique {
-    min-height: 465px; }
-    .unique h1 {
-      font-size: 35px; }
-    .unique p {
-      width: auto;
-      font-size: 20px; }
-    .unique .more-button, .unique .less-button {
-      font-size: 22px;
-      margin-top: 20px; } }
+  .unique h1 {
+    font-size: 35px; }
+  .unique p {
+    width: auto;
+    font-size: 20px; }
+  .unique .more-button, .unique .less-button {
+    font-size: 22px;
+    margin-top: 20px; } }
 @media (max-width: 450px) {
-  .unique {
-    min-height: 465px;
-    padding-bottom: 0; }
-    .unique h1 {
-      font-size: 30px; }
-    .unique p {
-      width: auto;
-      font-size: 18px; }
-    .unique .more-button, .unique .less-button {
-      font-size: 20px;
-      margin-top: 20px; }
-    .unique .less {
-      height: 50px; }
-    .unique .more {
-      height: 160px; }
-    .unique .underline {
-      width: 200px; } }
+  .unique h1 {
+    font-size: 30px; }
+  .unique p {
+    width: auto;
+    font-size: 18px; }
+  .unique .more-button, .unique .less-button {
+    font-size: 20px;
+    margin-top: 20px; }
+  .unique .less {
+    height: 50px; }
+  .unique .more {
+    height: 160px; }
+  .unique .underline {
+    width: 200px; } }
 .container {
   max-width: none; }
 
 .why {
-  padding: 40px 0 40px 0;
-  min-height: 555px; }
+  padding: 40px 0 40px 0; }
   .why h1, .why p {
     color: #222e50; }
   .why h1 {
@@ -8549,61 +8547,30 @@ p {
     border-bottom: 4px solid #ffd249;
     display: block;
     margin: 0 auto; }
-  .why .see-more-text {
-    width: auto;
-    font-style: italic;
-    margin-top: 2px; }
-  .why .more-button, .why .less-button {
-    font-family: 'calibri', sans-serif;
+  .why a, .why a:visited {
     color: #ffd249;
-    text-decoration: underline;
-    transition: 0.2s;
-    background: none;
-    border: none;
-    font-size: 28px;
-    margin-top: 15px; }
-    .why .more-button:hover, .why .less-button:hover {
+    transition: 0.2s; }
+    .why a i, .why a:visited i {
+      font-size: 36px; }
+    .why a:hover, .why a:visited:hover {
+      text-decoration: none;
       color: #222e50;
       transition: 0.2s; }
-    .why .more-button:focus, .why .less-button:focus {
-      outline: none; }
-  .why .container {
-    margin: auto;
-    text-align: center;
-    transition: all 0.5s; }
-  .why .post {
-    margin-bottom: 10px;
-    transition: all 0.5s; }
-  .why .less {
-    height: 55px;
-    width: 100%;
-    overflow: hidden; }
-  .why .more {
-    height: 170px;
-    overflow: auto; }
-  .why .button {
-    display: block;
-    margin: 40px auto 0 auto;
-    width: 280px; }
 
 @media (min-width: 1500px) and (min-height: 900px) {
-  .why {
-    min-height: 700px; }
-    .why h1 {
-      font-size: 66px; }
-    .why p {
-      font-size: 38px;
-      width: 1300px; } }
+  .why h1 {
+    font-size: 66px; }
+  .why p {
+    font-size: 38px;
+    width: 1300px; } }
 @media (max-width: 1035px) {
-  .why {
-    min-height: 515px; }
-    .why h1 {
-      font-size: 40px; }
-    .why p {
-      width: 600px;
-      font-size: 24px; }
-    .why .more {
-      height: 170px; } }
+  .why h1 {
+    font-size: 40px; }
+  .why p {
+    width: 600px;
+    font-size: 24px; }
+  .why .more {
+    height: 170px; } }
 @media (max-width: 710px) {
   .why h1 {
     font-size: 35px; }

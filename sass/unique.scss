@@ -2,8 +2,8 @@
 
 .unique {
   background-color: $blue;
-  padding: 40px 0 0 0;
-  min-height: 440px;
+  padding: 40px 0 40px 0;
+  // min-height: 440px;
   .underline {
     height: 0;
     width: 300px;
@@ -19,14 +19,26 @@
   h2 {
     color: $yellow;
   }
-  button, button:visited {
+  a, a:visited {
     color: $yellow;
     transition: 0.2s;
+    i {
+      font-size: 36px;
+    }
+    &:hover {
+      text-decoration: none;
+      color: $white;
+      transition: 0.2s;
+    }
   }
-  button:hover {
-    color: $white;
-    transition: 0.2s;
-  }
+  // button, button:visited {
+  //   color: $yellow;
+  //   transition: 0.2s;
+  // }
+  // button:hover {
+  //   color: $white;
+  //   transition: 0.2s;
+  // }
   h1 {
     font-size: 45px;
   }
@@ -42,41 +54,41 @@
   h2 {
     font-size: 36px;
   }
-  button {
-    font-family: 'calibri', sans-serif;
-    text-decoration: underline;
-    font-size: 36px;
-    background: none;
-    border: none;
-    &:focus {
-      outline: none;
-    }
-  }
+  // button {
+  //   font-family: 'calibri', sans-serif;
+  //   text-decoration: underline;
+  //   font-size: 36px;
+  //   background: none;
+  //   border: none;
+  //   &:focus {
+  //     outline: none;
+  //   }
+  // }
   // see more container and button styles
-  .container {
-    // width: 90%;
-    margin: auto;
-    text-align: center;
-    transition: all 0.5s;}
-    .post {
-      margin-bottom: 10px;
-      transition: all 0.5s;
-    }
-    .less {
-      height: 55px; width: 100%;
-      overflow: hidden;
-    }
-    .more {
-      height: 140px;
-      // width: 100%;
-      overflow: auto;
-    }
+  // .container {
+  //   // width: 90%;
+  //   margin: auto;
+  //   text-align: center;
+  //   transition: all 0.5s;}
+  //   .post {
+  //     margin-bottom: 10px;
+  //     transition: all 0.5s;
+  //   }
+  //   .less {
+  //     height: 55px; width: 100%;
+  //     overflow: hidden;
+  //   }
+  //   .more {
+  //     height: 140px;
+  //     // width: 100%;
+  //     overflow: auto;
+  //   }
 }
 
 // Media queries
 @media (min-width: 1500px) and (min-height: 900px) {
   .unique {
-    min-height: 470px;
+    // min-height: 470px;
     h1 {
       font-size: 56px;
     }
@@ -89,7 +101,7 @@
 
 @media (max-width: 1035px) {
   .unique {
-    min-height: 465px;
+    // min-height: 465px;
     h1 {
       font-size: 42px;
     }
@@ -105,7 +117,7 @@
 
 @media (max-width: 710px) {
   .unique {
-    min-height: 493px;
+    // min-height: 493px;
     h1 {
       font-size: 40px;
     }
@@ -122,7 +134,7 @@
 
 @media (max-width: 530px) {
   .unique {
-    min-height: 465px;
+    // min-height: 465px;
     h1 {
       font-size: 35px;
     }
@@ -139,8 +151,7 @@
 
 @media (max-width: 450px) {
   .unique {
-    min-height: 465px;
-    padding-bottom: 0;
+    // min-height: 465px;
     h1 {
       font-size: 30px;
     }

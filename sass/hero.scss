@@ -31,7 +31,7 @@
     margin: 0 auto;
     // margin-top: 20vh;
     // padding: 40px;
-    height: 80vh;
+    height: 75vh;
     padding: 0 20px;
     width: 100%;
     background:
@@ -58,12 +58,29 @@
         margin-left: 220px;
       }
     }
+    .first-heading {
+      margin-bottom: 0;
+    }
+    .month {
+      display: inline-flex;
+      margin: 0 auto;
+      .asterisk {
+        font-size: 16px;
+        vertical-align: text-top;
+      }
+    }
     .large {
       font-size: 46px;
     }
     p {
       font-size: 18px;
     }
+  }
+  p {
+    margin-top: 4px;
+    font-size: 13px;
+    color: #fff;
+    font-style: italic;
   }
   .hero-1 {
     background-image: url("../img/hero-1.jpg");
@@ -114,6 +131,7 @@
     display: block;
     margin: 20px auto 0 auto;
     text-decoration: none;
+    margin-left: -100px;
     &:hover {
       color: $yellow;
       text-decoration: none;
@@ -194,7 +212,7 @@
   .hero {
     .hero-1 {
       background-image: url("../img/hero-1-mobile.jpg");
-      // background-position: left;
+      background-position: left;
       // background-size: cover;
       // background-repeat: no-repeat;
       // height: 100vh;
@@ -317,6 +335,10 @@
       height: 50vh;
       // margin-top: 20vh;
     }
+    .hero-1 {
+      background-image: url("../img/hero-1-mobile-2.jpg");
+      background-position: right;
+    }
   }
 }
 
@@ -325,6 +347,19 @@
     .text-container {
       height: 35vh;
       // margin-top: 20vh;
+    }
+    .hero-1 {
+      background-image: url("../img/hero-1-mobile-2.jpg");
+      background-position: right;
+    }
+  }
+}
+
+@media (max-width: 414px) {
+  .hero {
+    .hero-1 {
+      background-image: url("../img/hero-1-mobile-2.jpg");
+      background-position: right;
     }
   }
 }
@@ -337,6 +372,12 @@
   .hero {
     .text-container {
       height: 70vh;
+      h1 {
+        font-size: 28px;
+      }
+      .large {
+        font-size: 32px;
+      }
     }
   }
 }
@@ -359,7 +400,7 @@
   }
 }
 
-@media (max-height: 466px) {
+@media (max-height: 555px) {
   .hero {
     .img-container {
       img {
@@ -368,6 +409,7 @@
     }
     .text-container {
       height: auto;
+      padding-bottom: 20px;
       // margin-top: 20px;
       h1 {
         margin-bottom: 10px;
